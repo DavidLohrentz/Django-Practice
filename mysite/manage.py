@@ -3,7 +3,7 @@ import os
 import sys
 
 if __name__ == "__main__":
-    os.chdir('..')
+#    os.chdir('..')
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mysite.settings")
 
     try:
